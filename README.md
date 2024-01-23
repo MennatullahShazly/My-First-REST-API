@@ -81,7 +81,19 @@ In Flask, there is no @app.get() decorator. Instead, Flask uses @app.route() wit
 ![image](https://github.com/MennatullahShazly/My-First-REST-API/assets/79003543/3e49f98a-bc6f-4717-acf1-71d169e8d718)
 
 you can access your web to checj your stores:
+
 ![image](https://github.com/MennatullahShazly/My-First-REST-API/assets/79003543/b2dcbf13-d377-4e24-bdeb-042963a42119)
+
+
+
+# What is JSON?
+JSON is a way to organize and store data so that computers can understand it easily, and it's also easy for people to read. It uses a format that looks like this:
+
+![image](https://github.com/MennatullahShazly/My-First-REST-API/assets/79003543/0da12f6f-5f5e-4f02-b3b8-f49219a79c61)
+
+
+# How to Interact with REST API ?
+
 
 
 
