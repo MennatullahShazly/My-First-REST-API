@@ -94,8 +94,15 @@ JSON is a way to organize and store data so that computers can understand it eas
 
 # How to Interact with REST API ?
 
+you can use Insomnia or Postman API
+
+Insomnia is a popular open-source software application that is used primarily by developers and testers for testing and debugging web APIs (Application Programming Interfaces). It helps users make HTTP requests to APIs, view responses, and analyze the behavior of their API requests. Insomnia is often used during the development and testing phases of building web applications to ensure that APIs are working correctly and as expected.
+
+![image](https://github.com/MennatullahShazly/My-First-REST-API/assets/79003543/991c68d5-e186-4d2d-a0d9-e4003e6a7934)
 
 
+
+![image](https://github.com/MennatullahShazly/My-First-REST-API/assets/79003543/d1dc9a66-00eb-49f0-b8b2-7daf1e7d1f3e)
 
 
 
