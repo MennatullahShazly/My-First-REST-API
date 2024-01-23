@@ -35,6 +35,57 @@ a. pip Install flask
 
 b. ![image](https://github.com/MennatullahShazly/My-First-REST-API/assets/79003543/e0e8e722-83fc-42f9-9523-2b8484659d2e)
 
+Flask is a Python web framework that allows you to build web applications. It provides tools and features to handle HTTP requests, route URLs, manage sessions, and more.
+
+app = Flask(__name__): This line of code creates an instance of the Flask application. Here's what each part does:
+
+Flask: This is the Flask class that you import from the Flask framework.
+__name__: This is a built-in Python variable. When you run a Python script, this variable is set to "__main__" if the script is the main entry point. It's used by Flask to determine the root path for your application.
+So, when you create an instance of Flask with app = Flask(__name__), you are initializing a Flask web application, and app becomes your application object. You'll use this app object to define routes, handle HTTP requests, and build your web application by adding functions that respond to specific URL patterns.
+
+c. ![image](https://github.com/MennatullahShazly/My-First-REST-API/assets/79003543/fec5965a-dcb6-4dd5-a3d7-d82292327969)
+
+app.run(), Flask will display the address where your app is running in the terminal
+
+d. store the data in database , but for now will store it in List :
+![image](https://github.com/MennatullahShazly/My-First-REST-API/assets/79003543/645db78f-738b-49a0-8c31-a71ec81dd7d7)
+
+e. create flask endpoint:
+
+In Flask, an "endpoint" refers to a specific URL route or path that your web application responds to. It is a way of mapping a URL to a particular function or view within your Flask application. Each endpoint corresponds to a particular web page or action that your application can perform.
+
+Endpoints are defined using route decorators like @app.route() in Flask. These decorators specify the URL pattern that should trigger a particular function when accessed. For example:
+
+from flask import Flask
+
+app = Flask(__name__)
+
+@app.route('/')
+def index():
+    return 'This is the homepage.'
+
+@app.route('/about')
+def about():
+    return 'This is the about page.'
+
+@app.route('/contact')
+def contact():
+    return 'This is the contact page.'
+
+if __name__ == '__main__':
+    app.run()
+
+
+In Flask, there is no @app.get() decorator. Instead, Flask uses @app.route() with different HTTP methods to define the routes for your application. The most commonly used HTTP methods in web development are GET, POST, PUT, DELETE, etc.
+
+![image](https://github.com/MennatullahShazly/My-First-REST-API/assets/79003543/3e49f98a-bc6f-4717-acf1-71d169e8d718)
+
+you can access your web to checj your stores:
+![image](https://github.com/MennatullahShazly/My-First-REST-API/assets/79003543/b2dcbf13-d377-4e24-bdeb-042963a42119)
+
+
+
+
 
 
 
