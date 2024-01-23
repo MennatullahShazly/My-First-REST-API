@@ -125,11 +125,21 @@ TypeError: The view function did not return a valid response. The function eithe
 127.0.0.1 - - [23/Jan/2024 12:26:56] "POST /store HTTP/1.1" 500 -
 
 
+![image](https://github.com/MennatullahShazly/My-First-REST-API/assets/79003543/6be4d28a-27c7-4762-b892-6456fa1a0f8e)
+
+![image](https://github.com/MennatullahShazly/My-First-REST-API/assets/79003543/d9a14781-7007-40b5-a0c0-be995a9e12ba)
+
+now if we check the web this is will be the result
+
+![image](https://github.com/MennatullahShazly/My-First-REST-API/assets/79003543/a18c2fd2-2543-4501-8d9a-792d9da92bbb)
+
+* Create Items within the store:
+
+  
 
 
 
 
 
-* 
 
 
