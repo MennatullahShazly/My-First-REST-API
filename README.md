@@ -101,10 +101,34 @@ Insomnia is a popular open-source software application that is used primarily by
 ![image](https://github.com/MennatullahShazly/My-First-REST-API/assets/79003543/991c68d5-e186-4d2d-a0d9-e4003e6a7934)
 
 
-
+* Read the Stores :
 ![image](https://github.com/MennatullahShazly/My-First-REST-API/assets/79003543/d1dc9a66-00eb-49f0-b8b2-7daf1e7d1f3e)
 
 
+* Create Stores:
 
+
+![image](https://github.com/MennatullahShazly/My-First-REST-API/assets/79003543/ead5582c-de16-44a1-9437-7014c883c28a)
+
+This is because we don't have post function in our script 
+
+![image](https://github.com/MennatullahShazly/My-First-REST-API/assets/79003543/5f8dd5c8-b1b5-412f-9f51-768a6359ada5)
+
+![image](https://github.com/MennatullahShazly/My-First-REST-API/assets/79003543/78cf4ccd-917a-4f65-9047-7c5116216382)
+
+Now , we got Internal Server Error 
+
+![image](https://github.com/MennatullahShazly/My-First-REST-API/assets/79003543/3e738cbc-7fdb-4aaf-bfe3-eb763b8b3605)
+
+TypeError: The view function did not return a valid response. The function either returned None or ended without a return statement.
+127.0.0.1 - - [23/Jan/2024 12:26:56] "POST /store HTTP/1.1" 500 -
+
+
+
+
+
+
+
+* 
 
 
