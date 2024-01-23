@@ -30,7 +30,11 @@ Delete : Delete
 
 # Steps :
 
-1- *Intial Se-up for Flask app* 
+1- **Intial Set-up for Flask app** :
+a. pip Install flask 
+
+b. ![image](https://github.com/MennatullahShazly/My-First-REST-API/assets/79003543/e0e8e722-83fc-42f9-9523-2b8484659d2e)
+
 
 
 
