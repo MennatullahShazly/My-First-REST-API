@@ -48,6 +48,7 @@ c. ![image](https://github.com/MennatullahShazly/My-First-REST-API/assets/790035
 app.run(), Flask will display the address where your app is running in the terminal
 
 d. store the data in database , but for now will store it in List :
+
 ![image](https://github.com/MennatullahShazly/My-First-REST-API/assets/79003543/645db78f-738b-49a0-8c31-a71ec81dd7d7)
 
 e. create flask endpoint:
