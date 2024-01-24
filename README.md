@@ -136,7 +136,9 @@ now if we check the web this is will be the result
 * Create Items within the store:
 
   
+![image](https://github.com/MennatullahShazly/My-First-REST-API/assets/79003543/95c08899-0616-484a-917a-df23e50622f2)
 
+ The create_item function is defined to handle POST requests at the URL "/store/string:name/item". This function takes a store name from the URL, parses JSON data from the request to create a new item with a name and price, and then iterates through a list of stores to find a store with the matching name. Upon finding the correct store, it adds the new item to the store's item list and returns this item with a 201 HTTP status code, which indicates successful creation of a resource. However, the code contains a typo in the method .apped(new_item) which should be .append(new_item) for proper execution.
 
 
 
